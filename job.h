@@ -3,20 +3,15 @@
 
 #include <string>
 #include <vector>
-using namespace std;
 
 struct Job {
-    string title;
-    string company;
-    string location;
-    string skills;
-    string description;
+    std::string title;
+    std::string company;
+    std::string location;
+    std::vector<std::string> skills;
+    std::string description; // Added for more detailed info
     double salary;
-    vector<string> tags;
+    std::vector<std::string> tags;
 };
 
-// Utility functions
-void printJob(const Job& job);
-string toLower(string s);
-
-#endif
+#endif // JOB_H
