@@ -1,0 +1,27 @@
+# Build artifacts
+job_portal_server
+*.o
+*.obj
+*.exe
+
+# Backup / temp files
+*.bak
+*.old
+*~
+*.orig
+
+# Editor folders and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Node / Python artifacts (if any)
+node_modules/
+__pycache__/
